@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# FastAPI / LangChain cache
+app/data/faiss_index/
+*.db
+
+# Env + secrets
+.env
+*.pem
+*.key
+
+# Editor settings
+.vscode/
+.idea/
