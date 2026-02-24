@@ -8,6 +8,7 @@ class GraphState(TypedDict):
     query: str
     retrieved_docs: List[Document]
     answer: str
+    history: List[dict]
 
 def build_graph():
     workflow = StateGraph(GraphState)
